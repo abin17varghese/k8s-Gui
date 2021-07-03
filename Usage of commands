@@ -1,0 +1,18 @@
+1. Want to run a pod
+run a pod with vimal13/apache-webserver-php image name it as os1
+
+2. Run a deployment 
+run deployment using  vimal13/apache-webserver-php image and name it as myd
+
+3. Exposing the svc
+expose services on  port number 80 on deployment myd
+
+4. Scaling the replicas 
+scale the replica to 4 of deployment myd
+
+5. Deleting the complete environment 
+delete complete environment
+
+6. Delete specific resources
+delete pod mypod
+delete deployment myd
